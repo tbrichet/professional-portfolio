@@ -125,7 +125,7 @@ header nav ul li a span {
 .work h3 {
     float: left;
     margin: 0 0 0 115px;
-    height: 65vh;
+    height: 85vh;
 }
 
 .grid-container {
@@ -161,7 +161,6 @@ header nav ul li a span {
     font-weight: normal;
     font-size: 1vw;
 }
-
 
 .project-one {
     grid-column-start: 1;
@@ -245,4 +244,41 @@ header nav ul li a span {
     text-align: center;
 }
 
-/* CONTACT ME */
+/* FOOTER/CONTACT ME */
+
+footer {
+    margin: 50px 20px 20px 20px;
+    padding: 20x 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+.footer {
+    float: left;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+footer nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 40px;
+}
+
+footer nav ul li a {
+    padding: 50px 100px 0 56px;
+    font-size: 1.55vw;
+    align-items: center;
+}
+
+footer nav ul li a span {
+    border-bottom: 3px solid;
+}
