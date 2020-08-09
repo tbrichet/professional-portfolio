@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #6882a2;
+    color:#455671;
     background-color: #edeef7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
 }
@@ -77,4 +77,41 @@ header nav ul li a span {
     margin: 0 80px 20px 0;
     padding: 5px 10px 5px 10px;
     font-weight: normal;
+}
+
+/* ABOUT ME */
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 20px 80px 20px 100px;
+}
+
+.section-title {
+    font-size: 3vw;
+    flex: 1 10%;
+    font-weight: normal;
+    padding: 0 10px 0 0;
+    border-right: 2px solid;
+    text-align: right;
+}
+
+.about h3 {
+    height: 18vh;
+}
+
+.about-img {
+    flex: 1 20%;
+}
+
+.about-img img {
+    max-width: 70%;
+    margin: 0 30px;
+}
+
+.about-content {
+    flex: 1 60%;
+    font-size: 1.2vw;
 }
