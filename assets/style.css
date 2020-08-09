@@ -148,10 +148,8 @@ header nav ul li a span {
     align-items: flex-end;
     padding: 0 0 20px 0;
     text-decoration: none;
-    background-blend-mode: soft-light;
-    background-size: 150px;
-    transition: all 0.5s;
     font-size: 0.9rem;
+    position: relative;
 }
 
 .grid-item h4 {
@@ -164,9 +162,6 @@ header nav ul li a span {
     font-size: 1vw;
 }
 
-.grid-img {
-    object-fit: scale-down;
-}
 
 .project-one {
     grid-column-start: 1;
@@ -176,6 +171,12 @@ header nav ul li a span {
     background-image: url("../assets/images/project1.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+.project-one:hover {
+    background-image: url(../assets/images/project1hover.jpg);
+    transition: 0.5s;
 }
 
 .project-two {
@@ -188,6 +189,11 @@ header nav ul li a span {
     background-position: center;
 }
 
+.project-two:hover {
+    background-image: url(../assets/images/project2hover.jpg);
+    transition: 0.5s;
+}
+
 .project-three {
     grid-column-start: 7;
     grid-column-end: 10;
@@ -196,6 +202,11 @@ header nav ul li a span {
     background-image: url("../assets/images/project3.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.project-three:hover {
+    background-image: url(../assets/images/project3hover.jpg);
+    transition: 0.5s;
 }
 
 .project-four {
@@ -208,6 +219,11 @@ header nav ul li a span {
     background-position: center;
 }
 
+.project-four:hover {
+    background-image: url(../assets/images/project4hover.jpg);
+    transition: 0.5s;
+}
+
 .project-five {
     grid-column-start: 4;
     grid-column-end: 7;
@@ -217,3 +233,16 @@ header nav ul li a span {
     background-size: cover;
     background-position: center;
 }
+
+.project-five:hover {
+    background-image: url(../assets/images/runbuddyhover.jpg);
+    transition: 0.5s;
+}
+
+.imglink {
+    opacity: 0;
+    font-size: 10vw;
+    text-align: center;
+}
+
+/* CONTACT ME */
