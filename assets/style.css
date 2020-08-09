@@ -2,6 +2,55 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
     color: #6882a2;
     background-color: #edeef7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+}
+
+header {
+    padding: 0px;
+    background-color: #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+header h1 {
+    color: #3a3a3a;
+    background-color: #9fc7cd;
+    margin: 5px 0 12px 0;
+    padding: 10px 10px 0 80px;
+    font-weight: 500;
+    font-size: 3vw;
+}
+
+header a {
+    text-decoration: none;
+    color: #9fc7cd;
+}
+
+header nav {
+    margin: 20px 100px auto auto;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 0 50px 0 0;
+    font-size: 1.55vw;
+    align-items: center;
+}
+
+header nav ul li a span {
+    border-bottom: 3px solid;
 }
