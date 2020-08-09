@@ -282,3 +282,110 @@ footer nav ul li a {
 footer nav ul li a span {
     border-bottom: 3px solid;
 }
+
+
+/* MEDIA QUERIES FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    
+    header nav ul li a {
+        font-size: 10px;
+        padding 5px 10px 5px 10px;
+    }
+
+    header nav ul li a span {
+        border-bottom: none;
+    }
+
+    .hero {
+        height: 100px;
+    }
+
+    .about h3 {
+        height: 100px;
+    }
+
+    .about-img img {
+        max-width: 30%;
+        padding-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .about-content {
+        flex: 1 60%;
+        font-size: 1.2vw;
+        text-align: center;
+        margin: 0 10px 10px 80px;
+    }
+
+    footer nav ul li a {
+        padding: 20px 20px 20px 20px;
+        font-size: 2vw;
+        align-items: center;
+    }
+    
+    footer nav ul li a span {
+        border-bottom: none;
+    }
+
+}
+
+/* MEDIA QUERIES FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(150px, 1fr);
+        padding: 0 0 0 30px;
+    }
+
+    .project-one {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .project-two {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    .project-three {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    .project-four {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    .project-five {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+
+ 
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+}
+
+
