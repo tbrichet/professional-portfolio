@@ -167,14 +167,14 @@ header nav ul li a span {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-image: url("../assets/images/project1.jpg");
+    background-image: url("../assets/images/project5.png");
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
 .project-one:hover {
-    background-image: url(../assets/images/project1hover.jpg);
+    background-image: url("../assets/images/project5hover.jpg");
     transition: 0.5s;
 }
 
