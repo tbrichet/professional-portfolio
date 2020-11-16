@@ -183,13 +183,13 @@ header nav ul li a span {
     grid-column-end: 10;
     grid-row-start: 1;
     grid-row-end: 2;
-    background-image: url("../assets/images/project2.jpg");
+    background-image: url("../assets/images/project2.png");
     background-size: cover;
     background-position: center;
 }
 
 .project-two:hover {
-    background-image: url(../assets/images/project2hover.jpg);
+    background-image: url("../assets/images/project2hover.png");
     transition: 0.5s;
 }
 
